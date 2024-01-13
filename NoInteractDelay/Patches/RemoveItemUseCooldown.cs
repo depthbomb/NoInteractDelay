@@ -1,5 +1,8 @@
 ﻿using HarmonyLib;
 
+// ReSharper disable InconsistentNaming
+// ReSharper disable UnusedParameter.Global
+
 namespace NoInteractDelay.Patches
 {
     [HarmonyPatch(typeof(GrabbableObject), "RequireCooldown")]
