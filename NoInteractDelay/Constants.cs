@@ -4,6 +4,6 @@
     {
         public const string PluginGuid = "com.caprinelogic.nointeractdelay";
         public const string Name       = "NoInteractDelay";
-        public const string Version    = "1.1.0";
+        public const string Version    = "1.2.0";
     }
 }
