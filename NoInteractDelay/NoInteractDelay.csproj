@@ -58,6 +58,7 @@
         <Compile Include="GlobalShared.cs" />
         <Compile Include="NoInteractDelayPlugin.cs" />
         <Compile Include="Patches\RemoveInteractionDelay.cs" />
+        <Compile Include="Patches\RemoveItemUseCooldown.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>

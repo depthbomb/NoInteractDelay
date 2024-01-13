@@ -22,6 +22,7 @@ namespace NoInteractDelay
             GlobalShared.Logger.LogInfo($"Loaded {Constants.Name} v{Constants.Version}");
             
             _harmony.PatchAll(typeof(RemoveInteractionDelay));
+            _harmony.PatchAll(typeof(RemoveItemUseCooldown));
         }
     }
 }
