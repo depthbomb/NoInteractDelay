@@ -1,0 +1,9 @@
+{
+	"name": "NoInteractDelay",
+	"description": "A simple mod that removes the \"cooldown\" between interacting with objects.",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100"
+	]
+}
